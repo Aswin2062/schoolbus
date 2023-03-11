@@ -1,20 +1,19 @@
 import Head from "next/head";
 import Image from "next/image";
-import mypic from "./api/Images/Traced.png";
-import wave from "./api//Images/Wave.svg";
-// import LoginPage from "./auth/signin"
-import {signIn} from 'next-auth/react'
-import divImg from "./api//Images/Divider.svg";
+import mypic from "../Images/Traced.png";
+import wave from "../Images/Wave.svg";
 
-import google from "./api/Images/google.svg";
-import facebook from "./api//Images/facebook.svg";
+import divImg from "../Images/Divider.svg";
+
+import google from "../Images/google.svg";
+import facebook from "../Images/facebook.svg";
 // import login from "./Login";
 // import Login from "./login";
 
-import mainImg1 from "./api//Images/MainImg-1.png";
+import mainImg1 from "../Images/MainImg-1.png";
 
 import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
+// import styles from "@/styles/Home.module.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -24,7 +23,7 @@ export default function Home() {
         <title>SkoolBus</title>
       </Head>
       <main>
-        <div>
+        <div className="main">
           <div className="flex justify-evenly pt-[10px] ">
             <div className="flex justify-evenly gap-x-12 pt-[4px] ">
               <Image
@@ -43,10 +42,7 @@ export default function Home() {
               <a href="#">Courses</a>
               <a href="#">Teachers</a>
               <div className="flex gap-0.5 bg-[#fe4a6c] text-white  Poppins font-light rounded-3xl pr-[15px] pl-[15px] pt-[4px] pb-[4px]">
-                <button onClick={()=>{
-                  signIn()
-
-                }}>Login/Register</button>
+                <a href="#">Login/Register</a>
               </div>
             </div>
           </div>
@@ -54,7 +50,8 @@ export default function Home() {
             <Image
               src={mainImg1}
               alt="Picture of the author"
-              
+              // width="350"
+              // height="300"
             />
             <div className="flex bottom-[42%] left-[4%]  absolute">
               <div>
@@ -159,18 +156,18 @@ export default function Home() {
               </div>
               <div>
                 <div className="flex justify-between w-[90%] pl-[100px] pt-[70px]	">
-                  {["AMD", "Facebook-2", "ATT", "Forbes"].map((pic) => {
+                  {["AMD", "Facebook-2", "ATT", "Forbes"].map((pic,a) => {
                     return (
-                      <div>
+                      <div key={a}>
                         <img src={`/${pic}.svg`} width="200" />
                       </div>
                     );
                   })}
                 </div>
                 <div className="flex justify-evenly  w-[80%] pl-[100px]	 pt-[30px]">
-                  {["Attlasian", "Disney", "Ebay"].map((pic2) => {
+                  {["Attlasian", "Disney", "Ebay"].map((pic2,b) => {
                     return (
-                      <div>
+                      <div key={b}>
                         <img src={`/${pic2}.svg`} width="200" />
                       </div>
                     );
@@ -197,9 +194,9 @@ export default function Home() {
                       "icon-linkedin",
                       "icon-slack",
                       "icon-twitter",
-                    ].map((icon) => {
+                    ].map((icon,c) => {
                       return (
-                        <div>
+                        <div key={c}>
                           <img src={`/${icon}.svg`} width="60" />
                         </div>
                       );

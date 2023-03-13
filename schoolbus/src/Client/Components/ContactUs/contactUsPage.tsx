@@ -3,6 +3,7 @@ import MobileLogo from "../../../Images/MobileLogo.svg"
 import WWWLogo from "../../../Images/wwwLogo.svg";
 import Map from "../../../Images/Map.svg";
 import Line from "../../../Images/Line.svg"
+import Slider from "../../../Images/Slider.svg"
 
 import Image from "next/image";
 
@@ -11,7 +12,10 @@ import Image from "next/image";
 function ContactUsPage() {
   return (
     <div>
-      <div className="flex absolute pl-[10%]">
+      <div>
+        <Image className=" " src={Slider} alt="Picture of the author" />
+      </div>
+      <div className="flex absolute  pt-[50px] pl-[10%]">
         <div>
           <h1 className="text-[40px] pl-[20%]">Get in Touch</h1>
           <p className="text-[15px] pl-[20%] w-[70%] pt-[30px] font-extralight	 text-[#151439]  ">
@@ -55,12 +59,12 @@ function ContactUsPage() {
         </div>
       </div>
       <div>
-        <div className="  pl-[55%] ">
+        <div className=" pt-[50px] pl-[55%] ">
           <h1 className="text-[40px] pt-[10px] ">You Can Mail Us</h1>
           <p className="text-[15px] font-extralight	pt-[10px]">
             We are always looking for a next great project.
           </p>
-          <div className='pt-[10px]'>
+          <div className="pt-[10px]">
             <form className=" pt-[10%] h-[575px] w-[70%] bg-[#EBEAED] rounded-2xl flex flex-col	">
               <h1 className="pl-[20px] text-[25px]">E-Mail</h1>
               <input
@@ -70,7 +74,7 @@ function ContactUsPage() {
               ></input>
               <h1 className="text-[25px] mt-[60px] pl-[20px]">Message</h1>
               <input
-                className=" gap-0.5 bg-[#ffffff]  h-[30%] mt-[150px] ml-[30px] text-white absolute  mt-[30px] Poppins font-light rounded-3xl pr-[75px] pl-[55px] pb-[10px]"
+                className=" gap-0.5 bg-[#ffffff]  h-[15%] mt-[150px] ml-[30px] text-white absolute   Poppins font-light rounded-3xl pr-[75px] pl-[55px] pb-[10px]"
                 type="text"
                 placeholder="Drop us a line"
               ></input>

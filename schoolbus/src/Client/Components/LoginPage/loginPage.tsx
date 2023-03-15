@@ -2,9 +2,8 @@ import React from 'react'
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 import Image from "next/image";
-
-import divImg from "../../../Images/Divider.svg";
-
+// import divImg from "../../../Images/Divider.svg";
+import divImg from "../../../Images/Divider.svg"
 import google from "../../../Images/google.svg";
 import facebook from "../../../Images/facebook.svg";
 
@@ -20,6 +19,10 @@ const loginPage: React.FC<LoginProps> = () => {
     event.preventDefault();
     if (username === 'test@gmail.com' && password === 'test') {
       router.push("/contact");
+      console.log(username);
+      console.log(password);
+      
+      
     } else {
       alert('Incorrect username or password');
     }
@@ -29,7 +32,11 @@ const loginPage: React.FC<LoginProps> = () => {
   return (
     <div>
       <div className=" pl-[20%]">
-        <form onSubmit={handleSubmit}>
+        <form
+          onSubmit={handleSubmit}
+          action="../../../pages/api/loginPages.ts"
+          method="post"
+        >
           <div className="bg-white absolute bottom-[15%] left-[58%] w-[35%] h-[70%] rounded-xl  ">
             <label className="flex justify-center font-[300] text-[50px] pt-[10%]">
               <b>Welcome back</b>
@@ -51,7 +58,6 @@ const loginPage: React.FC<LoginProps> = () => {
                 type="password"
                 placeholder="Your password"
                 name="uname"
-
                 value={password}
                 onChange={(event) => setPassword(event.target.value)}
                 required
@@ -67,40 +73,19 @@ const loginPage: React.FC<LoginProps> = () => {
             </div>
             <div className="flex justify-center pt-[10px]">
               <div className="flex pt-[5px] pr-[5px]">
-                <Image
-                  src={divImg}
-                  alt="Picture of the author"
-                  // width="350"
-                  // height="300"
-                />
+                <Image src={divImg} alt="Picture of the author" />
               </div>
-
               <h2>or continue with</h2>
               <div className="flex pt-[5px] pl-[5px]">
-                <Image
-                  src={divImg}
-                  alt="Picture of the author"
-                  // width="350"
-                  // height="300"
-                />
+                <Image src={divImg} alt="Picture of the author" />
               </div>
             </div>
             <div>
               <div className="flex pl-[40%] pt-[20px]">
-                <Image
-                  src={google}
-                  alt="Picture of the author"
-                  // width="350"
-                  // height="300"
-                />
+                <Image src={google} alt="Picture of the author" />
               </div>
               <div className="flex pl-[53%] absolute bottom-[56px]">
-                <Image
-                  src={facebook}
-                  alt="Picture of the author"
-                  // width="350"
-                  // height="300"
-                />
+                <Image src={facebook} alt="Picture of the author" />
               </div>
             </div>
             <div className="flex justify-center pt-[10px] ">

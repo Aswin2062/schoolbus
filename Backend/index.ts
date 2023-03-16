@@ -7,8 +7,8 @@ const app = express()
 app.listen(5000, () => console.log("listening on http://localhost:5000"));
 
 
-const mongoUrl =
-  "mongodb+srv://ASWIN2062:ASWIN2062@cluster0.cqkjges.mongodb.net/?retryWrites=true&w=majority";
+// const mongoUrl =
+//   "mongodb+srv://ASWIN2062:ASWIN2062@cluster0.cqkjges.mongodb.net/?retryWrites=true&w=majority";
  
 
   const connection = mongoose.connection;

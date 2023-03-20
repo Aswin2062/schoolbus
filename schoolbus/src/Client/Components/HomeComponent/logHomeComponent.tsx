@@ -5,7 +5,7 @@ import mainImg1 from "../../../Images/MainImg-1.png";
 
 
 
-function homeComponent() {
+function logHomeComponent() {
   return (
     <div>
       <div className="relative pt-[10px]">
@@ -68,4 +68,4 @@ function homeComponent() {
   );
 }
 
-export default homeComponent
+export default logHomeComponent;

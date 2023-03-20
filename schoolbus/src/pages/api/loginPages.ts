@@ -1,5 +1,5 @@
 import Connect from "../../../lib/mongoDb";
-import User from "../../../Models/loginSchema";
+import User from "../../../../Backend/Models/loginSchema";
 import Contact from "../contact";
 
 Connect()

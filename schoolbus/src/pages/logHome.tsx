@@ -1,5 +1,5 @@
 import React from 'react'
-import HomeComponent from '@/Client/Components/HomeComponent/homeComponent'
+import HomeComponent from '@/Client/Components/HomeComponent/logHomeComponent'
 
 export default function HomePage() {
   return (

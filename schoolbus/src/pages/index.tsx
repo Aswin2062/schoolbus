@@ -3,7 +3,7 @@ import Image from "next/image";
 import mypic from "../Images/Traced.png";
 import wave from "../Images/Wave.svg";
 import Footer from "./footer";
-import HomePage from "./home";
+import LogHomePage from "./logHome";
 import divImg from "../Images/Divider.svg";
 
 import google from "../Images/google.svg";
@@ -30,7 +30,7 @@ export default function Home() {
             <Header />
           </div>
           <div>
-            <HomePage />
+            <LogHomePage />
           </div>
           <div>
             <Footer />

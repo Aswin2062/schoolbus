@@ -2,7 +2,6 @@ import React from 'react'
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 import Image from "next/image";
-// import divImg from "../../../Images/Divider.svg";
 import divImg from "../../../Images/Divider.svg"
 import google from "../../../Images/google.svg";
 import facebook from "../../../Images/facebook.svg";

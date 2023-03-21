@@ -17,7 +17,7 @@ const loginPage: React.FC<LoginProps> = () => {
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     if (username === 'test@gmail.com' && password === 'test') {
-      router.push("/contact");
+      router.push("/mainHome");
       console.log(username);
       console.log(password);
       

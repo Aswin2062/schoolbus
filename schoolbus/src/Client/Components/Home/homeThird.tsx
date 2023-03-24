@@ -1,6 +1,14 @@
 import React from 'react'
 import Image from 'next/image';
 
+
+
+
+// const now = new Date();  
+// console.log(now); 
+// let today = new Date().toISOString().slice(0, 10);
+
+
 function HomeThird() {
   return (
     <div>
@@ -96,13 +104,22 @@ function HomeThird() {
               <p>Nicolas Appert</p>
             </div>
 
-            <p className="w-[20vh] m-[7%]">
-              Agency provides a full service range including technical skills,
-              design...
-            </p>
+            <div className="flex flex-row pl-[23px] gap-[20px]">
+              <Image src="/cal-icon.svg" alt="img1" width="25" height="25" />
+              <p>Date: 11st June 2022</p>
+            </div>
+            <div className="flex flex-row pl-[23px] gap-[20px] pt-[15px]">
+              <Image src="/time-icon.svg" alt="img1" width="25" height="25" />
+              <p>1st Oct 2022</p>
+            </div>
+            <div className="bg-[black] w-[100%] h-[1px] mt-[10px]"></div>
+
             <div className="flex flex-row gap-[20px] m-[7%] ">
-              <Image src="/watch.svg" alt="img1" width="30" height="30" />
-              <p>Watch Now</p>
+              <Image src="/rupee-icon.svg" alt="img1" width="30" height="30" />
+              <p className="text-[40px]">345</p>
+              <div className="flex  justify-center h-[50px] w-[200px] mt-[18px]  bg-[#12A35C] text-white  Poppins font-light rounded-3xl pr-[15px] pl-[20px] pt-[5px] pb-[5px]">
+                <button type="submit">Buy Now </button>
+              </div>
             </div>
           </div>
           <div className="w-[23%] bg-[white] rounded-[10px] pt-[20px]">
@@ -175,13 +192,22 @@ function HomeThird() {
               <p>Nicolas Appert</p>
             </div>
 
-            <p className="w-[20vh] m-[7%]">
-              Agency provides a full service range including technical skills,
-              design...
-            </p>
+            <div className="flex flex-row pl-[23px] gap-[20px]">
+              <Image src="/cal-icon.svg" alt="img1" width="25" height="25" />
+              <p>Date: 11st June 2022</p>
+            </div>
+            <div className="flex flex-row pl-[23px] gap-[20px] pt-[15px]">
+              <Image src="/time-icon.svg" alt="img1" width="25" height="25" />
+              <p>1st Oct 2022</p>
+            </div>
+            <div className="bg-[black] w-[100%] h-[1px] mt-[10px]"></div>
+
             <div className="flex flex-row gap-[20px] m-[7%] ">
-              <Image src="/watch.svg" alt="img1" width="30" height="30" />
-              <p>Watch Now</p>
+              <Image src="/rupee-icon.svg" alt="img1" width="30" height="30" />
+              <p className="text-[40px]">345</p>
+              <div className="flex  justify-center h-[50px] w-[200px] mt-[18px]  bg-[#12A35C] text-white  Poppins font-light rounded-3xl pr-[15px] pl-[20px] pt-[5px] pb-[5px]">
+                <button type="submit">Buy Now </button>
+              </div>
             </div>
           </div>
           <div className="w-[23%] bg-[white] rounded-[10px] pt-[20px]">
@@ -254,13 +280,22 @@ function HomeThird() {
               <p>Nicolas Appert</p>
             </div>
 
-            <p className="w-[20vh] m-[7%]">
-              Agency provides a full service range including technical skills,
-              design...
-            </p>
+            <div className="flex flex-row pl-[23px] gap-[20px]">
+              <Image src="/cal-icon.svg" alt="img1" width="25" height="25" />
+              <p>Date: 11st June 2022</p>
+            </div>
+            <div className="flex flex-row pl-[23px] gap-[20px] pt-[15px]">
+              <Image src="/time-icon.svg" alt="img1" width="25" height="25" />
+              <p>1st Oct 2022</p>
+            </div>
+            <div className="bg-[black] w-[100%] h-[1px] mt-[10px]"></div>
+
             <div className="flex flex-row gap-[20px] m-[7%] ">
-              <Image src="/watch.svg" alt="img1" width="30" height="30" />
-              <p>Watch Now</p>
+              <Image src="/rupee-icon.svg" alt="img1" width="30" height="30" />
+              <p className="text-[40px]">345</p>
+              <div className="flex  justify-center h-[50px] w-[200px] mt-[18px]  bg-[#12A35C] text-white  Poppins font-light rounded-3xl pr-[15px] pl-[20px] pt-[5px] pb-[5px]">
+                <button type="submit">Buy Now </button>
+              </div>
             </div>
           </div>
           <div className="w-[23%] bg-[white] rounded-[10px] pt-[20px]">
@@ -326,20 +361,28 @@ function HomeThird() {
               )}
             </div>
             <p className="w-[20vh] m-[7%] text-[20px] font-semibold">
-              Learn Tamil Through English
+              Learn Tamil Through<br></br> English
             </p>
             <div className="flex flex-row gap-[20px] m-[7%]">
               <Image src="/eve-pic-1.svg" alt="img1" width="30" height="30" />
               <p>Nicolas Appert</p>
             </div>
+            <div className="flex flex-row pl-[23px] gap-[20px]">
+              <Image src="/cal-icon.svg" alt="img1" width="25" height="25" />
+              <p>Date: 11st June 2022</p>
+            </div>
+            <div className="flex flex-row pl-[23px] gap-[20px] pt-[15px]">
+              <Image src="/time-icon.svg" alt="img1" width="25" height="25" />
+              <p>1st Oct 2022</p>
+            </div>
+            <div className="bg-[black] w-[100%] h-[1px] mt-[10px]"></div>
 
-            <p className="w-[20vh] m-[7%]">
-              Agency provides a full service range including technical skills,
-              design...
-            </p>
             <div className="flex flex-row gap-[20px] m-[7%] ">
-              <Image src="/watch.svg" alt="img1" width="30" height="30" />
-              <p>Watch Now</p>
+              <Image src="/rupee-icon.svg" alt="img1" width="30" height="30" />
+              <p className="text-[40px]">345</p>
+              <div className="flex  justify-center h-[50px] w-[200px] mt-[18px]  bg-[#12A35C] text-white  Poppins font-light rounded-3xl pr-[15px] pl-[20px] pt-[5px] pb-[5px]">
+                <button type="submit">Buy Now </button>
+              </div>
             </div>
           </div>
         </div>

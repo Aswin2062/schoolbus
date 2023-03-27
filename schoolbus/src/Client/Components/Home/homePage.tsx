@@ -3,6 +3,7 @@ import Image from 'next/image'
 import HomeFirst from "./homeFirst";
 import HomeSecond from './homeSecond';
 import HomeThird from './homeThird';
+import HomeFourth from './homeFourth';
 
 function homePage() {
   return (
@@ -43,8 +44,9 @@ function homePage() {
         </div>
       </div>
       {/* <HomeFirst/>
-      <HomeSecond/> */}
-      <HomeThird/>
+      <HomeSecond/>
+      <HomeThird/> */}
+      <HomeFourth/>
       
       <div>
         

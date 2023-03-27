@@ -12,7 +12,7 @@ import Image from 'next/image';
 function HomeThird() {
   return (
     <div>
-      <div className="bg-[#FDF6F2]">
+      <div className="bg-[#FDF6F2] h-[800px]">
         <div className="flex flex-row bg-[#FDF6F2]">
           <h1 className="text-[30px] font-semibold pl-[10%] pt-[40px]">
             Classes
@@ -96,7 +96,7 @@ function HomeThird() {
                 }
               )}
             </div>
-            <p className="w-[20vh] m-[7%] text-[20px] font-semibold">
+            <p className=" m-[7%] text-[20px] font-semibold">
               A Complete Guide to Photography
             </p>
             <div className="flex flex-row gap-[20px] m-[7%]">
@@ -184,7 +184,7 @@ function HomeThird() {
                 }
               )}
             </div>
-            <p className="w-[20vh] m-[7%] text-[20px] font-semibold">
+            <p className=" m-[7%] text-[20px] font-semibold">
               Master mind in Sanskrit Slokhas{" "}
             </p>
             <div className="flex flex-row gap-[20px] m-[7%]">
@@ -272,7 +272,7 @@ function HomeThird() {
                 }
               )}
             </div>
-            <p className="w-[20vh] m-[7%] text-[20px] font-semibold">
+            <p className=" m-[7%] text-[20px] font-semibold">
               Learn Maths Scratch to Advanced{" "}
             </p>
             <div className="flex flex-row gap-[20px] m-[7%]">
@@ -360,8 +360,8 @@ function HomeThird() {
                 }
               )}
             </div>
-            <p className="w-[20vh] m-[7%] text-[20px] font-semibold">
-              Learn Tamil Through<br></br> English
+            <p className=" m-[7%] text-[20px] font-semibold">
+              Learn Tamil Through English
             </p>
             <div className="flex flex-row gap-[20px] m-[7%]">
               <Image src="/eve-pic-1.svg" alt="img1" width="30" height="30" />

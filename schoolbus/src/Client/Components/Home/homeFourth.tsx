@@ -21,7 +21,6 @@ function HomeFourth() {
           width="200"
           height="100"
         />{" "}
-        <Image src="/teacher-1.svg" alt="next-icon" width="200" height="100" />
       </div>
     </div>
   );

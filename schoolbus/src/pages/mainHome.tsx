@@ -8,7 +8,7 @@ function mainHome() {
     <div>
       <Header/>
         <MainHome/>
-        {/* <Footer/> */}
+        <Footer/>
       
     </div>
   )

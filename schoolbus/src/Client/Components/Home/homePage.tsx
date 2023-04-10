@@ -43,10 +43,10 @@ function homePage() {
           />
         </div>
       </div>
-      {/* <HomeFirst/>
+      <HomeFirst/>
       <HomeSecond/>
-      <HomeThird/> */}
-      <HomeFourth/>
+      <HomeThird/>
+      {/* <HomeFourth/> */}
       
       <div>
         

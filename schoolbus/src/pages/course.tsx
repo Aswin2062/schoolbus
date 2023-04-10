@@ -10,7 +10,7 @@ function Course() {
     <div>
         <Header/>
         <CourseVideo/>
-        {/* <Footer/> */}
+        <Footer/>
       
     </div>
   )
